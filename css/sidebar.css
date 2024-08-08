@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.sidebar{
+    background-color:rgb(216, 216, 216);
+}
+p {
+    width: 210px;
+    font-family: serif;
+    font-size: larger;
+    border-bottom: 3px dotted #000;
+    padding: 0px 10px 0px 10px;
+}
+h2 {
+    position: relative;
+    padding-left: 1.2em;/*アイコン分のスペース*/
+    line-height: 1.4;
+  }
+  
+  h2:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";/*アイコンのユニコード*/
+    font-weight: 900;
+    position: absolute;/*絶対位置*/
+    font-size: 1em;/*サイズ*/
+    left: 0;/*アイコンの位置*/
+    top: 0;/*アイコンの位置*/
+    color: #5ab9ff; /*アイコン色*/
+    font-weight: 900;
+  }
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+a:link{
+color: black;
+}
