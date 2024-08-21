@@ -2,19 +2,22 @@
 .sidebar{
     background-color:rgb(216, 216, 216);
 }
-p {
+a {
+    line-height: 2em;
+    display:inline-block;
     width: 210px;
     font-family: serif;
-    font-size: larger;
+    font-size: 20px;
     border-bottom: 3px dotted #000;
     padding: 0px 10px 0px 10px;
 }
 h2 {
+
     position: relative;
     padding-left: 1.2em;/*アイコン分のスペース*/
     line-height: 1.4;
   }
-  
+
   h2:before {
     font-family: "Font Awesome 5 Free";
     content: "\f00c";/*アイコンのユニコード*/
@@ -26,6 +29,23 @@ h2 {
     color: #5ab9ff; /*アイコン色*/
     font-weight: 900;
   }
+
+summary {
+  font-size: 25px;
+}
+
+details summary {
+  list-style: none; /* 矢印アイコンを非表示にする */
+}
+details summary::-webkit-details-marker {
+  display: none; /* 矢印アイコンを非表示にする */
+}
+details summary:before {
+    content: "➤ ";
+}
+details[open] summary:before {
+  content: "▼  ";
+}
 
 a{
     font-weight: bold;

@@ -5,7 +5,9 @@ table{
 th{
     font-family: serif;
 }
-.topImages{ text-align: center; }
+.topImages{ 
+    text-align:center; 
+}
 .top{margin-left: 300px;}
 h1 {font-family: serif; color:cornflowerblue; font-weight: bold; font-style: italic; margin-left: 150px;}
 p {font-family: serif;}
@@ -40,7 +42,7 @@ p {font-family: serif;}
 }
 
 #ver0 {
-    margin-left: 20%;
+    margin-left: 40%;
     max-width: 5%;
     text-align: center;
     padding: 1rem 2rem;
@@ -49,8 +51,9 @@ p {font-family: serif;}
   }
 
 #textBox {
-    margin-left: 20%;
-    max-width: 70%;
+    margin-left: 40%;
+    margin-right: 20%;
+    max-width: 50%;
     text-align: center;
     padding: 1rem 2rem;
     border-left: 5px solid #4fa2f0;
